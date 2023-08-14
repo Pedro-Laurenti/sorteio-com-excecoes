@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+input {
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: #fff;
+}
+
+button{
+    background-color: #616161;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: #fff;
+}
+
+input[type="number"] {
+    width: 50%;
+}
+
+input[type="text"] {
+    width: 70%;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.excecao {
+    display: flex;
+    align-items: center;
+}
+
+.excecao input {
+    flex: 1;
+}
+
+.remove-excecao {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 3px; /* Alterado para 3px */
+    width: 20px;
+    height: 20px;
+    line-height: 1;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 5px; /* Ajustado para 5px */
+    transition: background-color 0.2s;
+}
+
+.remove-excecao:hover {
+    background-color: #e60000;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#submit {
+    background-color: rgb(90, 177, 3);
+
+}
+
+#submit-class{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
