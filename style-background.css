@@ -1,0 +1,8 @@
+canvas#c {
+    margin: 0px; 
+    padding: 0px; 
+    position: absolute; 
+    background-color: #010209;
+    width: 100%;
+    height: auto;
+}

@@ -1,99 +1,81 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #111;
-    color: #fff;
+.navbar-dark{
+    z-index: 1000;
+    background-color: rgba(18, 126, 233, 0.485)!important;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 20px;
+.container{
+    flex-direction: column;
 }
 
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #222;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+.sortcalc{
+    margin: 100px 0 0 0;
+    border-color: #091558;
 }
 
-label, input, button {
-    display: block;
-    margin-bottom: 10px;
-    color: #fff;
+.sortcalc2{
+    margin: 0 0 0 0;
+    max-height: 200px;
 }
 
-input {
-    background-color: #333;
-    border: none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #fff;
+.card-header{
+    background-color: #3549ba;
 }
 
-button{
-    background-color: #616161;
-    border: none;
-    border-radius: 3px;
-    padding: 5px;
-    color: #fff;
+.sortcalc2 .card-header{
+    height: 60px;
 }
 
-input[type="number"] {
-    width: 50%;
-}
-
-input[type="text"] {
-    width: 70%;
-}
-
-button {
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-button:hover {
-    background-color: #555;
+.sortcalc2 .card-header .titulo-card-sem-animacao{
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .excecao {
+    margin-top: 10px;
     display: flex;
     align-items: center;
 }
 
-.excecao input {
-    flex: 1;
-}
-
-.remove-excecao {
-    background-color: #ff3333;
+.add-remove{
     color: #fff;
     border: none;
     border-radius: 3px; /* Alterado para 3px */
-    width: 20px;
-    height: 20px;
-    line-height: 1;
-    font-size: 12px;
-    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
     margin-left: 5px; /* Ajustado para 5px */
     transition: background-color 0.2s;
 }
 
+.remove-excecao {
+    background-color: #E74C3C;
+
+}
+
+.add-excecao {
+    background-color: #00A077;
+}
+
 .remove-excecao:hover {
-    background-color: #e60000;
+    background-color: #a9382c;
+}
+
+
+.add-excecao:hover {
+    background-color: #0C8667;
 }
 
 #resultado {
     margin-top: 20px;
     font-weight: bold;
-}
-
-#submit {
-    background-color: rgb(90, 177, 3);
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 80px;
+    background-color: #00A077;
+    padding: 25px;
+    border-radius: 10px;
 }
 
 #submit-class{
@@ -101,4 +83,24 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+
+#Contato{
+    min-height: 100px;
+}
+
+#wrapper-calc{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body{
+    overflow: auto;
+    background-color: #030826;
+    border-color: #030826;
+}
+
+#conteudo-do-site{
+    background-color: #010209;
 }
